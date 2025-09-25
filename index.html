@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Cuts | Premium Barbershop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Elegance<span>Cuts</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#offers">Special Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Precision Cuts, Timeless Style</h1>
+            <p>Experience the ultimate grooming at Elegance Cuts, where tradition meets modern style in the heart of the city.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/3125270787?text=Hi,%20I'd%20like%20to%20book%20an%20appointment" class="btn" target="_blank">Book Now</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Classic Haircut</h3>
+                    <p>Professional haircut with precision styling</p>
+                    <div class="service-price">$35</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-air-freshener"></i>
+                    </div>
+                    <h3>Beard Grooming</h3>
+                    <p>Expert beard trim and shaping</p>
+                    <div class="service-price">$25</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Hair Coloring</h3>
+                    <p>Premium hair coloring services</p>
+                    <div class="service-price">$60+</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Luxury Treatment</h3>
+                    <p>Full grooming experience with hot towel</p>
+                    <div class="service-price">$75</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Barbershop Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gal1.jpeg" alt="Barber at Work">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516470930795-6ba2564824aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Barbershop Tools">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gal2.jpg" alt="Stylish Haircut">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gal3.jpeg" alt="Stylish Haircut">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gal4.webp" alt="Stylish Haircut">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="section before-after">
+        <div class="container">
+            <div class="section-title">
+                <h2>Transformations</h2>
+            </div>
+            <div class="comparison-container">
+                <img class="comparison-image" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="After Transformation">
+                <div class="comparison-before">
+                    <img class="comparison-image" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&blur=10" alt="Before Transformation">
+                </div>
+                <div class="comparison-slider"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="client-img">
+                    <p class="testimonial-text">"Best haircut I've ever had! The attention to detail is incredible. I won't go anywhere else now."</p>
+                    <p class="client-name">- Michael Johnson</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="section offers" id="offers">
+        <div class="container">
+            <div class="section-title">
+                <h2>Special Offers</h2>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <span class="offer-tag">Limited Time</span>
+                    <h3>Tuesday 2x1</h3>
+                    <p>Get two beard trims for the price of one every Tuesday</p>
+                </div>
+                <div class="offer-card">
+                    <span class="offer-tag">New Clients</span>
+                    <h3>First Visit Discount</h3>
+                    <p>20% off your first haircut and grooming service</p>
+                </div>
+                <div class="offer-card">
+                    <span class="offer-tag">Student Discount</span>
+                    <h3>15% Off</h3>
+                    <p>Show your student ID and get 15% off any service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="section video-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Vibe</h2>
+            </div>
+            <div class="video-container">
+                
+                <video controls poster="video-poster.jpg">
+                    <source src="barbershop-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Barber Street, Downtown, City 10001</p>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (234) 567-8900</p>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@elegancecuts.com</p>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-clock"></i>
+                        <p>Mon-Sat: 9am-7pm, Sun: 10am-4pm</p>
+                    </div>
+                    <a href="https://wa.me/3125270787?text=Hi,%20I'd%20like%20to%20book%20an%20appointment" class="btn" target="_blank" style="margin-top: 20px;">Book via WhatsApp</a>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="map-container">
+                <!-- Embedded Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.99879968459426!3d40.71914397933005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a7c4d5c9f%3A0x8f8e9a7a7c5e5b1e!2sBarber%20Shop!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Elegance Cuts</h3>
+                    <p>Premium barbershop offering precision cuts, beard grooming, and luxury treatments in a sophisticated environment.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <ul class="opening-hours">
+                        <li><span>Monday - Friday</span> <span>9:00 AM - 7:00 PM</span></li>
+                        <li><span>Saturday</span> <span>9:00 AM - 6:00 PM</span></li>
+                        <li><span>Sunday</span> <span>10:00 AM - 4:00 PM</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Barber Street, Downtown, City 10001</p>
+                    <p><i class="fas fa-phone"></i> +1 (234) 567-8900</p>
+                    <p><i class="fas fa-envelope"></i> info@elegancecuts.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Elegance Cuts. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            mobileMenuBtn.innerHTML = mainNav.classList.contains('active') ? 
+                '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Before/After Slider
+        const comparisonContainer = document.querySelector('.comparison-container');
+        const comparisonSlider = document.querySelector('.comparison-slider');
+        const comparisonBefore = document.querySelector('.comparison-before');
+        
+        let isResizing = false;
+        
+        comparisonSlider.addEventListener('mousedown', (e) => {
+            isResizing = true;
+            document.addEventListener('mousemove', handleResize);
+            document.addEventListener('mouseup', () => {
+                isResizing = false;
+                document.removeEventListener('mousemove', handleResize);
+            });
+        });
+        
+        function handleResize(e) {
+            if (!isResizing) return;
+            
+            const containerRect = comparisonContainer.getBoundingClientRect();
+            const x = e.clientX - containerRect.left;
+            const width = containerRect.width;
+            
+            if (x >= 0 && x <= width) {
+                const percentage = (x / width) * 100;
+                comparisonBefore.style.width = `${percentage}%`;
+                comparisonSlider.style.left = `${percentage}%`;
+            }
+        }
+
+        // Contact Form Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            contactForm.reset();
+        });
+
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

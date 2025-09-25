@@ -617,10 +617,11 @@
             .section-title h2 {
                 font-size: 1.8rem;
             }
+        }
 
- @media (max-width: 768px) {
+        @media (max-width: 768px) {
   .comparison-slider {
-    display: none; /* Ocultamos el deslizador */
+    display: none; 
   }
 
   .comparison-before {
@@ -628,11 +629,11 @@
   }
 
   @keyframes reveal {
-    0%   { width: 100%; }   /* Solo se ve el "antes" */
-    30%  { width: 100%; }   /* Pausa mostrando el "antes" */
-    50%  { width: 0%; }     /* Se desliza para mostrar el "después" */
-    80%  { width: 0%; }     /* Pausa mostrando el "después" */
-    100% { width: 100%; }   /* Vuelve al "antes" */
+    0%   { width: 100%; }  
+    30%  { width: 100%; }  
+    50%  { width: 0%; }    
+    80%  { width: 0%; }     
+    100% { width: 100%; }   
   }
-         
-        }
+}
+
